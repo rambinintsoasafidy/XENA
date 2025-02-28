@@ -30,10 +30,12 @@ body {
   background-color: red;
 }
 
+.round{
+  border-radius: 8px;
+}
+
 .boutton {
   padding: 8px 16px 8px 16px;
-  background-color: green;
-  color: white;
 }
 
 .boutton-transparent {
@@ -58,13 +60,16 @@ body {
 
 .blue {
   background-color: #000b58;
+  color: #f1f1f1;
 }
 
 .green {
   background-color: #006a67;
+  color: #f1f1f1;
 }
 .pale-yellow {
   background-color: #fff4b7;
+  color: #111111;
 }
 .text-white {
   color: white !important;
@@ -116,4 +121,8 @@ h4 {
 }
 .margin-right {
   margin-right: 16px;
+}
+.headerWrapper {
+  padding-block: 8px;
+  padding-inline: 16px;
 }
