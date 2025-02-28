@@ -1,0 +1,93 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Roboto",sans-serif;
+}
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.boutton {
+  padding: 8px 16px 8px 16px;
+  background-color: green;
+  color: white;
+}
+
+.boutton-transparent {
+  padding: 8px 16px 8px 16px;
+  background-color: transparent;
+}
+
+.boutton-bordered {
+  padding: 8px 16px 8px 16px;
+  background-color: transparent;
+  border: 3px solid #f1f1f1;
+  border-radius: 8px;
+}
+
+.boutton-round {
+  padding-block: 8px;
+  padding-inline: 16px;
+  background-color: #000b58;
+  color: white;
+  border-radius: 120px;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.margin8 {
+  margin: 8px;
+}
+.display-contentainer {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 16px;
+  padding-block: 8px;
+  position: relative;
+}
+.hero {
+  height: 95vh;
+  background-image: url(../assets/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header {
+  position: fixed;
+  display: block;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Zen Dots", sans-serif;
+}
+.overlay{
+  background: #000000c5;
+}
+.text-center{
+  text-align: center;
+}
