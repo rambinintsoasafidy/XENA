@@ -1,9 +1,10 @@
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
 html,
 body {
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .flex {
   display: flex;
@@ -12,7 +13,9 @@ body {
 .flex-row {
   flex-direction: row;
 }
-
+.flex-column {
+  flex-direction: column;
+}
 .flex1 {
   flex: 1;
 }
@@ -41,7 +44,7 @@ body {
 .boutton-bordered {
   padding: 8px 16px 8px 16px;
   background-color: transparent;
-  border: 3px solid #f1f1f1;
+  border: 1px solid #f1f1f1;
   border-radius: 8px;
 }
 
@@ -53,6 +56,16 @@ body {
   border-radius: 120px;
 }
 
+.blue {
+  background-color: #000b58;
+}
+
+.green {
+  background-color: #006a67;
+}
+.pale-yellow {
+  background-color: #fff4b7;
+}
 .text-white {
   color: white !important;
 }
@@ -85,9 +98,22 @@ h3,
 h4 {
   font-family: "Zen Dots", sans-serif;
 }
-.overlay{
+.overlay {
   background: #000000c5;
 }
-.text-center{
+.text-center {
   text-align: center;
+}
+
+.margin-top {
+  margin-top: 16px;
+}
+.margin-bottom {
+  margin-bottom: 16px;
+}
+.margin-left {
+  margin-left: 16px;
+}
+.margin-right {
+  margin-right: 16px;
 }
